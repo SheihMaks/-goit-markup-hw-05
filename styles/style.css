@@ -904,6 +904,17 @@ body {
   align-items: center;
 }
 
-.icon-input {
+.icon-input-name {
   position: absolute;
+  left: 15px;
+}
+
+.icon-input-telephone {
+  position: absolute;
+  left: 14.27px;
+}
+
+.icon-input-mail {
+  position: absolute;
+  left: 13.5px;
 }
