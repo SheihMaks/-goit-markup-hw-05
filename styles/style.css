@@ -897,3 +897,11 @@ body {
 .modal-close:hover {
   color: var(--accent-color);
 }
+
+.input-container {
+  position: relative;
+}
+
+.icon-input {
+  position: absolute;
+}
