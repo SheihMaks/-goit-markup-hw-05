@@ -31,18 +31,13 @@
             >
             <ul class="navigation list">
               <li class="header-item active">
-                
-                  <a href="index.html" class="studio link">Студия</a>
-              
+                <a href="index.html" class="studio link">Студия</a>
               </li>
               <li class="header-item">
-              
-                  <a href="portfolio.html" class="portfolio link">Портфолио</a>
-              
+                <a href="portfolio.html" class="portfolio link">Портфолио</a>
               </li>
               <li class="header-item">
-              
-                  <a href="#0" class="contacts link">Контакты</a>
+                <a href="#0" class="contacts link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -75,7 +70,9 @@
     <main>
       <section class="solutions overlay">
         <h1 class="core">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="order" data-modal-open>Заказать услугу</button>
+        <button type="button" class="order" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
       <section class="section">
         <div class="container">
@@ -455,15 +452,27 @@
         </div>
       </div>
     </footer>
-  <div class="backdrop is-hidden" data-modal> 
-  <div class="modal">
-    <button class="modal-close" data-modal-close>
-      <svg class="modal-close-btn" width="11px" height="11px">
-        <use href="./images/icons.svg#icon-Vector"></use>
-      </svg>
-    </button>
-  </div>
-</div>
-<script src="./js/modal.js"></script>
-</body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" data-modal-close>
+          <svg class="modal-close-btn" width="11px" height="11px">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <div>
+          <label for="">Имя</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Телефон</label>
+          <input type="telephone" />
+        </div>
+        <div>
+          <label for="">Почта</label>
+          <input type="mail" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
