@@ -902,19 +902,33 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  color: var(--second-title-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-input-name {
   position: absolute;
   left: 15px;
+  fill: currentColor;
 }
 
 .icon-input-telephone {
   position: absolute;
   left: 14.27px;
+  fill: currentColor;
 }
 
 .icon-input-mail {
   position: absolute;
   left: 13.5px;
+  fill: currentColor;
+}
+
+.icon-input-name:hover,
+.icon-input-name :focus,
+.icon-input-telephone:hover,
+.icon-input-telephone:focus,
+.icon-input-mail:hover,
+.icon-input-mail:focus {
+  color: var(--accent-color);
 }
