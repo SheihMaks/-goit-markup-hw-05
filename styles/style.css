@@ -902,7 +902,6 @@ body {
   position: relative;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .icon-input {
