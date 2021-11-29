@@ -900,6 +900,8 @@ body {
 
 .input-container {
   position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .icon-input {
