@@ -881,6 +881,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border-color: transparent;
   display: flex;
   justify-content: center;
   background-color: transparent;
