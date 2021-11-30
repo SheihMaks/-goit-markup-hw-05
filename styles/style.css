@@ -925,14 +925,12 @@ body {
 
 .icon-input-name {
   position: absolute;
-  top: 14;
   left: 15px;
   fill: currentColor;
 }
 
 .icon-input-telephone {
   position: absolute;
-  display: block;
   left: 14.27px;
   fill: currentColor;
 }
@@ -940,7 +938,6 @@ body {
 .icon-input-mail {
   position: absolute;
   left: 13.5px;
-  top: 14;
   fill: currentColor;
 }
 
