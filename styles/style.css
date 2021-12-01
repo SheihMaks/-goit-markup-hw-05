@@ -984,11 +984,19 @@ body {
   border-color: var(--accent-color);
 }
 
+.checkbox-input {
+}
+
+.checkbox-policy {
+  padding-left: 12px;
+}
+
 .checkbox-policy input[type="checkbox"]:checked {
   color: var(--accent-color);
 }
 
 .title-policy {
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71px;
   color: #757575;
@@ -997,5 +1005,29 @@ body {
 .link-policy {
   font-size: 14px;
   line-height: 1.71px;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+.form-submit-btn {
+  display: block;
+  padding: 10px 55px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-submit-btn:hover {
+  background-color: #188ce8;
 }
