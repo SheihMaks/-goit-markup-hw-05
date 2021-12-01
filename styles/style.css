@@ -971,3 +971,7 @@ body {
 .modal-form-input:focus + svg {
   color: var(--accent-color);
 }
+
+.checkbox-policy input[type="checkbox"]:checked + label {
+  color: var(--accent-color);
+}
