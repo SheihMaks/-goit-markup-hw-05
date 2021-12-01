@@ -989,6 +989,7 @@ body {
 
 .checkbox-policy {
   padding-left: 12px;
+  margin-bottom: 30px;
 }
 
 .checkbox-policy input[type="checkbox"]:checked {
