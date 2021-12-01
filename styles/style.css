@@ -726,6 +726,11 @@ body {
 .social-link-ft:focus {
   background-color: var(--accent-color);
 }
+
+.subscription {
+  padding-top: 72px;
+  margin-left: 93px;
+}
 /***************************************************************Портфолио********************************************************************/
 
 .filters {
@@ -961,4 +966,8 @@ body {
 
 .modal-form-input:focus {
   border-color: var(--accent-color);
+}
+
+.modal-form-input:focus + svg {
+  color: var(--accent-color);
 }
