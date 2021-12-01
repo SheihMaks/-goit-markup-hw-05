@@ -741,6 +741,11 @@ body {
   margin-bottom: 20px;
 }
 
+.subscription-container {
+  display: flex;
+  align-items: center;
+}
+
 .mail-subscription {
   width: 358px;
   height: 50px;
