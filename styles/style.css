@@ -972,6 +972,9 @@ body {
   color: var(--accent-color);
 }
 
+.modal-textarea {
+  margin-bottom: 20px;
+}
 .modal-textarea-input {
   width: 100%;
   padding: 12px 16px;
