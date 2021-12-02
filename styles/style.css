@@ -1037,6 +1037,11 @@ body {
   color: var(--accent-color);
 }
 
+.custom-check {
+  border: solid 2px;
+  width: 16px;
+  height: 15px;
+}
 .title-policy {
   letter-spacing: 0.03em;
   font-size: 14px;
