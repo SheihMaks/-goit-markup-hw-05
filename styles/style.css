@@ -1038,6 +1038,9 @@ body {
 }
 
 .custom-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: solid 2px black;
   border-radius: 2px;
   width: 16px;
