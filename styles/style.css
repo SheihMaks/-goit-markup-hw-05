@@ -1025,9 +1025,6 @@ body {
   border-color: var(--accent-color);
 }
 
-.checkbox-input {
-}
-
 .checkbox-policy {
   padding-left: 12px;
   margin-bottom: 30px;
@@ -1057,6 +1054,7 @@ body {
 }
 
 .title-policy {
+  display: flex;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71px;
