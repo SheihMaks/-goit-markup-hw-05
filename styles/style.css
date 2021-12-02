@@ -1055,9 +1055,10 @@ body {
 
 .title-policy {
   display: flex;
+  align-items: center;
   font-size: 14px;
-  letter-spacing: 0.03em;
   line-height: 1.71px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
