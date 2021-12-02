@@ -1038,10 +1038,14 @@ body {
 }
 
 .custom-check {
-  border: solid 2px;
+  border: solid 2px black;
+  border-radius: 2px;
   width: 16px;
   height: 15px;
+  margin-right: 8.38px;
+  background-color: transparent;
 }
+
 .title-policy {
   letter-spacing: 0.03em;
   font-size: 14px;
