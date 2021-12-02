@@ -1050,6 +1050,7 @@ body {
   background-color: var(--accent-color);
   border-color: transparent;
 }
+
 .title-policy {
   letter-spacing: 0.03em;
   font-size: 14px;
