@@ -988,7 +988,7 @@ body {
 .icon-input-mail {
   position: absolute;
   left: 12px;
-  fill: black;
+  fill: currentColor;
 }
 
 .modal-form-input {
@@ -1057,15 +1057,20 @@ body {
   display: flex;
   align-items: center;
   font-size: 14px;
+  line-height: 1;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .link-policy {
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+.policy-span {
+  margin-left: 4px;
 }
 
 .form-submit-btn {
