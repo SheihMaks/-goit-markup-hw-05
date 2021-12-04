@@ -979,7 +979,7 @@ body {
   color: var(--second-title-color);
 }
 
-.icon-input-name {
+.icon-input-svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
