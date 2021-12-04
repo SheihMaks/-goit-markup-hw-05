@@ -981,8 +981,7 @@ body {
 
 .icon-input-name {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%;
+  transform: translate(top 50% bottom -50%);
   left: 12px;
   fill: currentColor;
 }
