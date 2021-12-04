@@ -975,13 +975,13 @@ body {
 .input-container {
   position: relative;
   display: flex;
-  align-items: center;
   margin-bottom: 10px;
   color: var(--second-title-color);
 }
 
 .icon-input-name {
   position: absolute;
+  transform: translate(top 50% bottom -50%)
   left: 12px;
   fill: currentColor;
 }
