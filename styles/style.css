@@ -777,6 +777,11 @@ body {
   background-color: #188ce8;
 }
 
+.icon-subscription {
+  display: inline-block;
+  margin-left: 10px;
+  fill: currentcolor;
+}
 /***************************************************************Портфолио********************************************************************/
 
 .filters {
