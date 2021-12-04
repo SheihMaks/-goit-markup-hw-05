@@ -989,12 +989,16 @@ body {
 
 .icon-input-telephone {
   position: absolute;
+   top: 50%;
+  transform: translateY(-50%);
   left: 12px;
   fill: currentColor;
 }
 
 .icon-input-mail {
   position: absolute;
+   top: 50%;
+  transform: translateY(-50%);
   left: 12px;
   fill: currentColor;
 }
