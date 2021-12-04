@@ -760,6 +760,7 @@ body {
 
 .subscription-btn {
   display: inline-flex;
+  align-items: center;
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -981,7 +982,7 @@ body {
 
 .icon-input-name {
   position: absolute;
-  transform: translate(top 50% bottom -50%)
+  transform: translate(top 50% bottom -50%);
   left: 12px;
   fill: currentColor;
 }
