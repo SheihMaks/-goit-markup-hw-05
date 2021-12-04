@@ -987,21 +987,6 @@ body {
   fill: currentColor;
 }
 
-.icon-input-telephone {
-  position: absolute;
-   top: 50%;
-  transform: translateY(-50%);
-  left: 12px;
-  fill: currentColor;
-}
-
-.icon-input-mail {
-  position: absolute;
-   top: 50%;
-  transform: translateY(-50%);
-  left: 12px;
-  fill: currentColor;
-}
 
 .modal-form-input {
   width: 100%;
